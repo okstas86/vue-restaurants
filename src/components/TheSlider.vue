@@ -119,32 +119,32 @@ export default {
   color: #302c34;
   max-width: 538px;
 }
-/* Медиа-запрос для мобильных устройств с шириной экрана меньше 768px */
+
 @media screen and (max-width: 768px) {
   .container-title {
-    width: auto; /* Автоматический размер по содержимому */
-    max-width: 100%; /* Максимальная ширина 100% */
+    width: auto; 
+    max-width: 100%; 
   }
 
   .container-text {
-    width: auto; /* Автоматический размер по содержимому */
-    max-width: 100%; /* Максимальная ширина 100% */
+    width: auto; 
+    max-width: 100%;
   }
 
   .promo {
-    padding: 30px; /* Уменьшенный отступ для мобильных устройств */
-    margin-bottom: 30px; /* Уменьшенный отступ для мобильных устройств */
+    padding: 30px; 
+    margin-bottom: 30px; 
   }
 
   .promo-title {
-    font-size: 28px; /* Уменьшенный размер шрифта для мобильных устройств */
-    line-height: 32px; /* Уменьшенная высота строки для мобильных устройств */
+    font-size: 28px; 
+    line-height: 32px; 
   }
 
   .promo-text {
-    font-size: 18px; /* Уменьшенный размер шрифта для мобильных устройств */
-    line-height: 24px; /* Уменьшенная высота строки для мобильных устройств */
-    max-width: 100%; /* Максимальная ширина 100% */
+    font-size: 18px;
+    line-height: 24px; 
+    max-width: 100%; 
   }
   .pizza {
     background: #fff1b8 url(../assets/img/promo/pizza.png) no-repeat top -100px right -250px;
