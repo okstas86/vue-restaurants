@@ -69,4 +69,34 @@ export default {};
 .social-link:not(:last-child) {
   margin-right: 21px;
 }
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-nav {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .social-link {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
 </style>
