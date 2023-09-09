@@ -256,4 +256,22 @@ export default {
   opacity: 1;
   transform: translateY(0);
 }
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+  }
+
+  .modal-body {
+    margin-bottom: 10px;
+  }
+
+  .close {
+    font-size: 24px;
+  }
+}
 </style>
