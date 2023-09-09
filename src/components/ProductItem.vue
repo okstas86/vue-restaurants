@@ -271,13 +271,25 @@ export default {
   }
 
   .modal-footer .button {
-    font-size: 14px;
-    padding: 5px 10px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
   }
 
   .modal-pricetag {
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px;
+  }
+   .food-name,
+  .food-price {
+    font-size: 12px;
+  }
+  .counter-button {
+    width: 25px;
+    height: 25px;
+  }
+  .counter {
+    font-size: 12px;
   }
 }
 </style>
