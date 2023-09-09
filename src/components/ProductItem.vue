@@ -259,19 +259,25 @@ export default {
 @media (max-width: 768px) {
   .modal-dialog {
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
 
   .modal-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .modal-body {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
-  .close {
-    font-size: 24px;
+  .modal-footer .button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .modal-pricetag {
+    font-size: 14px;
+    padding: 5px 10px;
   }
 }
 </style>
