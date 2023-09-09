@@ -1,6 +1,6 @@
 # Restaurants
-### You can try use the web-site vue-restaurants-9ggxn1vs3-okstas86.vercel.app
-
+### You can try use the web-site 
+[Visit my website](https://vue-restaurants-9ggxn1vs3-okstas86.vercel.app)
 
 ## Project setup
 
